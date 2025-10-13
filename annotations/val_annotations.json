@@ -1,0 +1,9020 @@
+[
+  {
+    "id": "sample_00700",
+    "image_path": "data\\images\\val\\sample_00700.png",
+    "object_type": "book",
+    "object_color": "blue",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "What color is the book?",
+        "blue",
+        "color"
+      ],
+      [
+        "Can you see a book?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many books are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4873939115730663,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 95,
+        "y": 249,
+        "scale": 1.0866036761044815,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 325,
+        "y": 249,
+        "scale": 1.1660326851896534,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 182,
+        "y": 62,
+        "scale": 1.082275081624248,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 63,
+        "y": 334,
+        "scale": 1.1496584932400415,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00701",
+    "image_path": "data\\images\\val\\sample_00701.png",
+    "object_type": "phone",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the phone?",
+        "blue",
+        "color"
+      ],
+      [
+        "Is the phone above the ball?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7272918392417824,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 306,
+        "y": 318,
+        "scale": 1.1529250251796956,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 91,
+        "y": 64,
+        "scale": 0.8655512269172072,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 97,
+        "y": 84,
+        "scale": 1.0963681972394408,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 208,
+        "y": 310,
+        "scale": 0.7299637998124121,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 307,
+        "y": 288,
+        "scale": 1.1912733680143255,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00702",
+    "image_path": "data\\images\\val\\sample_00702.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the bottle near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the bottle?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the bottle larger than the apple?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3775973783762392,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 196,
+        "y": 68,
+        "scale": 0.6104792413785752,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 294,
+        "y": 162,
+        "scale": 1.1743127824122794,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 105,
+        "y": 98,
+        "scale": 1.0561434310303899,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 66,
+        "y": 294,
+        "scale": 0.6127507181250115,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 85,
+        "y": 118,
+        "scale": 0.8007449604250867,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00703",
+    "image_path": "data\\images\\val\\sample_00703.png",
+    "object_type": "bottle",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Where is the bottle located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the bottle to the left of the book?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "How many bottles are there?",
+        "3",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.409189435365163,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 319,
+        "y": 316,
+        "scale": 1.028238000901115,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 105,
+        "y": 155,
+        "scale": 0.6646781725452304,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 318,
+        "y": 271,
+        "scale": 1.1909707127522093,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 71,
+        "y": 166,
+        "scale": 0.6549715471673514,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 268,
+        "y": 276,
+        "scale": 0.8189202911239237,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00704",
+    "image_path": "data\\images\\val\\sample_00704.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Which is bigger, the cup or the cup?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup above the cup?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "How many cups are in the image?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.251816417146597,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 104,
+        "y": 72,
+        "scale": 0.9356870044724203,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 313,
+        "y": 118,
+        "scale": 0.8403866348610451,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 89,
+        "y": 161,
+        "scale": 1.1930111746540892,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 162,
+        "y": 66,
+        "scale": 0.6536454986352078,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00705",
+    "image_path": "data\\images\\val\\sample_00705.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What color is the cup?",
+        "blue",
+        "color"
+      ],
+      [
+        "Which is bigger, the cup or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup to the left of the apple?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4015533880845619,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 338,
+        "y": 152,
+        "scale": 0.9749959797394698,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 177,
+        "y": 85,
+        "scale": 1.1540774580650572,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 287,
+        "y": 273,
+        "scale": 0.8548185248159785,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00706",
+    "image_path": "data\\images\\val\\sample_00706.png",
+    "object_type": "banana",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the banana above the apple?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Can you see a banana?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of bananas.",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7080825075674617,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 105,
+        "y": 78,
+        "scale": 1.1876869008638777,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 185,
+        "y": 64,
+        "scale": 1.1172107738831918,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 317,
+        "y": 208,
+        "scale": 1.1872391900696224,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00707",
+    "image_path": "data\\images\\val\\sample_00707.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the cup above the phone?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Where is the cup located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the cup?",
+        "red",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.614047468603137,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 331,
+        "y": 337,
+        "scale": 1.0862948207178291,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00708",
+    "image_path": "data\\images\\val\\sample_00708.png",
+    "object_type": "phone",
+    "object_color": "blue",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the phone?",
+        "blue",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4593532387985944,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 263,
+        "y": 103,
+        "scale": 1.1697614121221311,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 155,
+        "y": 335,
+        "scale": 1.180473570268733,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 222,
+        "y": 334,
+        "scale": 0.66370348394921,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 304,
+        "y": 305,
+        "scale": 0.8789119101418283,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00709",
+    "image_path": "data\\images\\val\\sample_00709.png",
+    "object_type": "book",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the book to the left of the book?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the book or the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Count the number of books.",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3745452841734815,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 228,
+        "y": 307,
+        "scale": 0.9308616336407318,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 95,
+        "y": 131,
+        "scale": 0.9541387794491625,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 239,
+        "y": 107,
+        "scale": 0.9206299179771997,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 329,
+        "y": 279,
+        "scale": 0.6236266809228769,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00710",
+    "image_path": "data\\images\\val\\sample_00710.png",
+    "object_type": "phone",
+    "object_color": "silver",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What color is the phone?",
+        "silver",
+        "color"
+      ],
+      [
+        "Which is bigger, the phone or the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.339748729657652,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 160,
+        "y": 69,
+        "scale": 0.6740947146788627,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00711",
+    "image_path": "data\\images\\val\\sample_00711.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the cup above the cup?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many cups are in the image?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7972781532160556,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 120,
+        "y": 68,
+        "scale": 0.8306650675899454,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 315,
+        "y": 160,
+        "scale": 0.6118877780754275,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00712",
+    "image_path": "data\\images\\val\\sample_00712.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Where is the apple located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the apple or the bottle?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Count the number of apples.",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6183717123075088,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 268,
+        "y": 313,
+        "scale": 0.7534273000793145,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 93,
+        "y": 203,
+        "scale": 0.828490334698482,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 241,
+        "y": 323,
+        "scale": 0.7191759899240303,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00713",
+    "image_path": "data\\images\\val\\sample_00713.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is there a car in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of cars.",
+        "1",
+        "count"
+      ],
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.697922234086902,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 138,
+        "y": 75,
+        "scale": 1.116406008584777,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 246,
+        "y": 328,
+        "scale": 0.8825997278298828,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 334,
+        "y": 76,
+        "scale": 0.8136186407079362,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 90,
+        "y": 244,
+        "scale": 1.1967156651052726,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 149,
+        "y": 332,
+        "scale": 0.7614839556853161,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00714",
+    "image_path": "data\\images\\val\\sample_00714.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the cup above the cup?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "How many cups are in the image?",
+        "3",
+        "count"
+      ],
+      [
+        "Is the cup larger than the cup?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7441912776613764,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 236,
+        "y": 62,
+        "scale": 0.7450134719709819,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 275,
+        "y": 130,
+        "scale": 0.8010494987328108,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 241,
+        "y": 79,
+        "scale": 1.005950426158258,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 235,
+        "y": 71,
+        "scale": 0.9947601743861648,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 176,
+        "y": 93,
+        "scale": 0.6835615034797298,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00715",
+    "image_path": "data\\images\\val\\sample_00715.png",
+    "object_type": "ball",
+    "object_color": "red",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the ball to the left of the car?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is the ball near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the ball or the car?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2175154966478252,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 154,
+        "y": 295,
+        "scale": 1.0902690288313883,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 116,
+        "y": 86,
+        "scale": 0.9141435490406038,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00716",
+    "image_path": "data\\images\\val\\sample_00716.png",
+    "object_type": "cup",
+    "object_color": "white",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What is the color of the cup?",
+        "white",
+        "color"
+      ],
+      [
+        "Is the cup larger than the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup to the left of the book?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2562601882743498,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 76,
+        "y": 273,
+        "scale": 0.6814274734582288,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 115,
+        "y": 272,
+        "scale": 0.8733765059700445,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 108,
+        "y": 131,
+        "scale": 1.1075136426994305,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 74,
+        "y": 323,
+        "scale": 0.7545231410520631,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00717",
+    "image_path": "data\\images\\val\\sample_00717.png",
+    "object_type": "apple",
+    "object_color": "yellow",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "How many apples are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the apple larger than the banana?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.646838978651487,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 76,
+        "y": 228,
+        "scale": 1.0326621455649074,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00718",
+    "image_path": "data\\images\\val\\sample_00718.png",
+    "object_type": "banana",
+    "object_color": "yellow",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Where is the banana located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many bananas are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Is there a banana in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2230869813646814,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 89,
+        "y": 134,
+        "scale": 0.8215784025541247,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 83,
+        "y": 134,
+        "scale": 0.9317862250314841,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 127,
+        "y": 301,
+        "scale": 0.8170871336777894,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 253,
+        "y": 298,
+        "scale": 0.7108832162903779,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 72,
+        "y": 206,
+        "scale": 0.9772264715675747,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00719",
+    "image_path": "data\\images\\val\\sample_00719.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What color is the cup?",
+        "blue",
+        "color"
+      ],
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many cups are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2712214008489415,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 118,
+        "y": 299,
+        "scale": 0.9629739856414812,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00720",
+    "image_path": "data\\images\\val\\sample_00720.png",
+    "object_type": "car",
+    "object_color": "silver",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Can you see a car?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the car larger than the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "How many cars are there?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4935030738797248,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 263,
+        "y": 98,
+        "scale": 1.0721077426773147,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 295,
+        "y": 282,
+        "scale": 1.0668084270538973,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 323,
+        "y": 291,
+        "scale": 0.892394337062443,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 237,
+        "y": 101,
+        "scale": 0.8238960647436473,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 222,
+        "y": 86,
+        "scale": 0.6062113693752788,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00721",
+    "image_path": "data\\images\\val\\sample_00721.png",
+    "object_type": "banana",
+    "object_color": "brown",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is there a banana in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many bananas are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "What color is the banana?",
+        "brown",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3897250197961877,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 84,
+        "y": 181,
+        "scale": 0.9891444092055175,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 64,
+        "y": 165,
+        "scale": 0.763885502851398,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 212,
+        "y": 95,
+        "scale": 0.9218816788985582,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 277,
+        "y": 337,
+        "scale": 0.902993171347342,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00722",
+    "image_path": "data\\images\\val\\sample_00722.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is the apple above the car?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of apples.",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.386302626846804,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 180,
+        "y": 334,
+        "scale": 0.9945203596960227,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 76,
+        "y": 160,
+        "scale": 1.0110847937965575,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00723",
+    "image_path": "data\\images\\val\\sample_00723.png",
+    "object_type": "ball",
+    "object_color": "orange",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Which is bigger, the ball or the banana?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What is the color of the ball?",
+        "orange",
+        "color"
+      ],
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 200,
+        "y": 200,
+        "scale": 1.479513979326574,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 308,
+        "y": 279,
+        "scale": 0.8892856397517945,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 71,
+        "y": 241,
+        "scale": 0.677640930179324,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 111,
+        "y": 85,
+        "scale": 1.179914159211021,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 118,
+        "y": 282,
+        "scale": 0.7448665124281983,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 332,
+        "y": 224,
+        "scale": 0.6625197359039039,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00724",
+    "image_path": "data\\images\\val\\sample_00724.png",
+    "object_type": "bottle",
+    "object_color": "clear",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the bottle above the car?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the bottle or the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Can you see a bottle?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 200,
+        "y": 200,
+        "scale": 1.433691183430117,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 279,
+        "y": 315,
+        "scale": 0.6469484041765066,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00725",
+    "image_path": "data\\images\\val\\sample_00725.png",
+    "object_type": "ball",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What is the color of the ball?",
+        "blue",
+        "color"
+      ],
+      [
+        "Is the ball above the apple?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.754199965788549,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 313,
+        "y": 166,
+        "scale": 0.8752598319878231,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 328,
+        "y": 304,
+        "scale": 1.048463828652332,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 95,
+        "y": 214,
+        "scale": 0.7782716220056662,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 150,
+        "y": 313,
+        "scale": 0.8545577520346351,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00726",
+    "image_path": "data\\images\\val\\sample_00726.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the ball larger than the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What is the color of the ball?",
+        "green",
+        "color"
+      ],
+      [
+        "How many balls are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5605792927598154,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 305,
+        "y": 73,
+        "scale": 1.1050313483934935,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 253,
+        "y": 335,
+        "scale": 1.1861744309904125,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 71,
+        "y": 170,
+        "scale": 0.8264426732862284,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 74,
+        "y": 202,
+        "scale": 0.9247702191169083,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 100,
+        "y": 236,
+        "scale": 0.9459918825724554,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00727",
+    "image_path": "data\\images\\val\\sample_00727.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the apple?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the apple above the car?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4262722242302899,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 338,
+        "y": 291,
+        "scale": 0.7022033220303765,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 305,
+        "y": 123,
+        "scale": 0.9111563318636098,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00728",
+    "image_path": "data\\images\\val\\sample_00728.png",
+    "object_type": "phone",
+    "object_color": "silver",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What is the color of the phone?",
+        "silver",
+        "color"
+      ],
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.234128133873897,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 311,
+        "y": 123,
+        "scale": 0.666227309163627,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 324,
+        "y": 108,
+        "scale": 0.9317351666978495,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00729",
+    "image_path": "data\\images\\val\\sample_00729.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "How many apples are there?",
+        "2",
+        "count"
+      ],
+      [
+        "What is the color of the apple?",
+        "red",
+        "color"
+      ],
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5578266089901254,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 112,
+        "y": 274,
+        "scale": 0.9580100937415135,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 309,
+        "y": 319,
+        "scale": 0.6426183525711892,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 87,
+        "y": 260,
+        "scale": 0.9182407646389147,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00730",
+    "image_path": "data\\images\\val\\sample_00730.png",
+    "object_type": "book",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Count the number of books.",
+        "2",
+        "count"
+      ],
+      [
+        "Which is bigger, the book or the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3330820372811365,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 183,
+        "y": 99,
+        "scale": 0.8821238664414892,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 78,
+        "y": 83,
+        "scale": 0.7862833754237611,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00731",
+    "image_path": "data\\images\\val\\sample_00731.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the apple to the left of the bottle?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Where is the apple located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What is the color of the apple?",
+        "green",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7205448608148992,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 306,
+        "y": 202,
+        "scale": 1.1995143133365416,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 114,
+        "y": 284,
+        "scale": 1.0852331859126496,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 94,
+        "y": 190,
+        "scale": 1.0992428563246026,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 79,
+        "y": 122,
+        "scale": 1.0177281016498805,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 86,
+        "y": 184,
+        "scale": 0.6052061761681271,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00732",
+    "image_path": "data\\images\\val\\sample_00732.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What is the color of the phone?",
+        "white",
+        "color"
+      ],
+      [
+        "Count the number of phones.",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5374420105752564,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 295,
+        "y": 307,
+        "scale": 0.9816306968468418,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 107,
+        "y": 274,
+        "scale": 0.8402760498593252,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 300,
+        "y": 158,
+        "scale": 1.1605833266472474,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 304,
+        "y": 129,
+        "scale": 0.6726143292135974,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 210,
+        "y": 65,
+        "scale": 1.0238083224887324,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00733",
+    "image_path": "data\\images\\val\\sample_00733.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Where is the apple located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Which is bigger, the apple or the ball?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7410724491525413,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 75,
+        "y": 140,
+        "scale": 1.0158763525464114,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00734",
+    "image_path": "data\\images\\val\\sample_00734.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "What is the color of the ball?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the ball to the left of the ball?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "How many balls are in the image?",
+        "3",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6816239621160542,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 313,
+        "y": 239,
+        "scale": 0.7154433069571725,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 299,
+        "y": 79,
+        "scale": 0.7919513954716,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 88,
+        "y": 320,
+        "scale": 1.1455790690689618,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00735",
+    "image_path": "data\\images\\val\\sample_00735.png",
+    "object_type": "car",
+    "object_color": "silver",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many cars are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the car to the left of the phone?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7740861378960289,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 335,
+        "y": 256,
+        "scale": 0.6559623177439621,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 93,
+        "y": 337,
+        "scale": 1.069461329673952,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00736",
+    "image_path": "data\\images\\val\\sample_00736.png",
+    "object_type": "car",
+    "object_color": "silver",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many cars are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the car above the book?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3209430521992747,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 301,
+        "y": 249,
+        "scale": 0.6615165707725472,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 190,
+        "y": 79,
+        "scale": 0.9046382074117261,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 70,
+        "y": 290,
+        "scale": 0.7613931396791447,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00737",
+    "image_path": "data\\images\\val\\sample_00737.png",
+    "object_type": "apple",
+    "object_color": "yellow",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the apple above the cup?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Which is bigger, the apple or the banana?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7760995034364586,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 300,
+        "y": 267,
+        "scale": 0.7968823896861146,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 123,
+        "y": 327,
+        "scale": 0.7208454922044137,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 129,
+        "y": 320,
+        "scale": 1.1697239732235487,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00738",
+    "image_path": "data\\images\\val\\sample_00738.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the phone to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Can you see a phone?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the phone?",
+        "black",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7120115228971993,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 285,
+        "y": 102,
+        "scale": 0.6484761447890857,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00739",
+    "image_path": "data\\images\\val\\sample_00739.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the bottle larger than the bottle?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Can you see a bottle?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the bottle?",
+        "green",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6367827959590397,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 256,
+        "y": 311,
+        "scale": 0.9973118228876494,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 324,
+        "y": 227,
+        "scale": 0.6111879269016239,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 68,
+        "y": 231,
+        "scale": 1.0689239028496775,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 308,
+        "y": 235,
+        "scale": 0.7865200014959028,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00740",
+    "image_path": "data\\images\\val\\sample_00740.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "What color is the ball?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the ball above the apple?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the ball or the apple?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.788202584663947,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 323,
+        "y": 96,
+        "scale": 0.9775110054520015,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 268,
+        "y": 86,
+        "scale": 1.0027039127887605,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00741",
+    "image_path": "data\\images\\val\\sample_00741.png",
+    "object_type": "ball",
+    "object_color": "purple",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What color is the ball?",
+        "purple",
+        "color"
+      ],
+      [
+        "Is the ball to the left of the apple?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5856202420025796,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 310,
+        "y": 295,
+        "scale": 0.8101668858118989,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 84,
+        "y": 170,
+        "scale": 0.8323747530320937,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 86,
+        "y": 159,
+        "scale": 1.048414753775874,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 266,
+        "y": 320,
+        "scale": 1.0685298111934187,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 335,
+        "y": 96,
+        "scale": 1.004559141232091,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00742",
+    "image_path": "data\\images\\val\\sample_00742.png",
+    "object_type": "book",
+    "object_color": "brown",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the book to the left of the cup?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "How many books are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4480858619072683,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 260,
+        "y": 287,
+        "scale": 0.9229096605472045,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 310,
+        "y": 313,
+        "scale": 0.7589796682457177,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00743",
+    "image_path": "data\\images\\val\\sample_00743.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What is the color of the apple?",
+        "green",
+        "color"
+      ],
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Which is bigger, the apple or the apple?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6954963484520298,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 259,
+        "y": 298,
+        "scale": 0.851934942115423,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00744",
+    "image_path": "data\\images\\val\\sample_00744.png",
+    "object_type": "phone",
+    "object_color": "silver",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "How many phones are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the phone or the cup?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6526286652886175,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 89,
+        "y": 76,
+        "scale": 0.9860098364247105,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 202,
+        "y": 77,
+        "scale": 1.0777852508829884,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00745",
+    "image_path": "data\\images\\val\\sample_00745.png",
+    "object_type": "book",
+    "object_color": "blue",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "How many books are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the book or the bottle?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7189515144087404,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 76,
+        "y": 66,
+        "scale": 1.1170205665736401,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 298,
+        "y": 74,
+        "scale": 1.113280320165484,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00746",
+    "image_path": "data\\images\\val\\sample_00746.png",
+    "object_type": "book",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Can you see a book?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the book?",
+        "red",
+        "color"
+      ],
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.390968938927572,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 265,
+        "y": 278,
+        "scale": 0.6459004699228359,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 289,
+        "y": 277,
+        "scale": 1.1539900888190093,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00747",
+    "image_path": "data\\images\\val\\sample_00747.png",
+    "object_type": "bottle",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "How many bottles are in the image?",
+        "2",
+        "count"
+      ],
+      [
+        "Is the bottle to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "What color is the bottle?",
+        "blue",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.627208877205106,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 251,
+        "y": 68,
+        "scale": 0.9160524382080311,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 178,
+        "y": 61,
+        "scale": 1.0379969992361098,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 68,
+        "y": 221,
+        "scale": 0.7669436879672522,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00748",
+    "image_path": "data\\images\\val\\sample_00748.png",
+    "object_type": "ball",
+    "object_color": "purple",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the ball above the banana?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "How many balls are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the ball or the apple?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3845169966715598,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 292,
+        "y": 316,
+        "scale": 0.8037505172237438,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 125,
+        "y": 61,
+        "scale": 0.7127865597336636,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00749",
+    "image_path": "data\\images\\val\\sample_00749.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Which is bigger, the bottle or the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Where is the bottle located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many bottles are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2541035442175321,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 318,
+        "y": 156,
+        "scale": 0.6051976076127032,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 222,
+        "y": 333,
+        "scale": 1.0888288561040227,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00750",
+    "image_path": "data\\images\\val\\sample_00750.png",
+    "object_type": "cup",
+    "object_color": "white",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the cup larger than the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Count the number of cups.",
+        "1",
+        "count"
+      ],
+      [
+        "Is the cup to the left of the car?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6761918871408668,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 244,
+        "y": 325,
+        "scale": 1.1037019277532352,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00751",
+    "image_path": "data\\images\\val\\sample_00751.png",
+    "object_type": "ball",
+    "object_color": "purple",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the ball above the ball?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "What color is the ball?",
+        "purple",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7956515186849744,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 140,
+        "y": 112,
+        "scale": 1.0134824332964398,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 86,
+        "y": 112,
+        "scale": 0.7040333258955815,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 301,
+        "y": 158,
+        "scale": 0.7771152112961317,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 265,
+        "y": 105,
+        "scale": 0.7179851006692286,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 160,
+        "y": 87,
+        "scale": 1.1713619428698947,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00752",
+    "image_path": "data\\images\\val\\sample_00752.png",
+    "object_type": "cup",
+    "object_color": "white",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What color is the cup?",
+        "white",
+        "color"
+      ],
+      [
+        "Is the cup above the banana?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3818475022776893,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 268,
+        "y": 281,
+        "scale": 0.7424285251616494,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 154,
+        "y": 110,
+        "scale": 0.6848154428896739,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 138,
+        "y": 88,
+        "scale": 0.8501856266265482,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00753",
+    "image_path": "data\\images\\val\\sample_00753.png",
+    "object_type": "ball",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Count the number of balls.",
+        "1",
+        "count"
+      ],
+      [
+        "What is the color of the ball?",
+        "red",
+        "color"
+      ],
+      [
+        "Which is bigger, the ball or the phone?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7098934666916135,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 123,
+        "y": 267,
+        "scale": 0.9213283366325289,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 137,
+        "y": 102,
+        "scale": 0.9796917996282228,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 134,
+        "y": 75,
+        "scale": 0.9174468809078011,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 104,
+        "y": 61,
+        "scale": 0.6066734582719028,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 240,
+        "y": 312,
+        "scale": 0.6777037505510302,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00754",
+    "image_path": "data\\images\\val\\sample_00754.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "How many phones are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What is the color of the phone?",
+        "white",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7635653650258332,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 155,
+        "y": 82,
+        "scale": 0.7987096026996884,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 324,
+        "y": 264,
+        "scale": 0.609561359015168,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00755",
+    "image_path": "data\\images\\val\\sample_00755.png",
+    "object_type": "phone",
+    "object_color": "silver",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many phones are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7878381473138356,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 71,
+        "y": 191,
+        "scale": 1.1223747972403388,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 164,
+        "y": 78,
+        "scale": 0.6562610144939126,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 323,
+        "y": 311,
+        "scale": 0.9185058765500446,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00756",
+    "image_path": "data\\images\\val\\sample_00756.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What color is the cup?",
+        "yellow",
+        "color"
+      ],
+      [
+        "Is the cup larger than the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup to the left of the ball?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7060075354199626,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 64,
+        "y": 203,
+        "scale": 0.8891966424765043,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00757",
+    "image_path": "data\\images\\val\\sample_00757.png",
+    "object_type": "banana",
+    "object_color": "brown",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the banana near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Can you see a banana?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of bananas.",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.637911593523138,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 97,
+        "y": 122,
+        "scale": 0.755769290594465,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 285,
+        "y": 125,
+        "scale": 0.9364765505762479,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 269,
+        "y": 302,
+        "scale": 0.7290317176562758,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 312,
+        "y": 64,
+        "scale": 1.084697035953074,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 324,
+        "y": 266,
+        "scale": 1.0888154966836696,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00758",
+    "image_path": "data\\images\\val\\sample_00758.png",
+    "object_type": "car",
+    "object_color": "blue",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Can you see a car?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Which is bigger, the car or the apple?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.740642088658856,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 167,
+        "y": 81,
+        "scale": 0.8620737562996645,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00759",
+    "image_path": "data\\images\\val\\sample_00759.png",
+    "object_type": "banana",
+    "object_color": "green",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Can you see a banana?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the banana to the left of the apple?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Where is the banana located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6404396159085324,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 303,
+        "y": 231,
+        "scale": 0.6879355791778091,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 162,
+        "y": 101,
+        "scale": 1.1625769681226128,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 317,
+        "y": 310,
+        "scale": 0.7647227907364772,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 104,
+        "y": 92,
+        "scale": 1.0234524546687909,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 279,
+        "y": 287,
+        "scale": 0.7939383242753726,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00760",
+    "image_path": "data\\images\\val\\sample_00760.png",
+    "object_type": "book",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "How many books are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the book above the bottle?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4614981739700459,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 331,
+        "y": 278,
+        "scale": 0.7425497081966637,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00761",
+    "image_path": "data\\images\\val\\sample_00761.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the cup near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the cup?",
+        "red",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5835808433081229,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 124,
+        "y": 328,
+        "scale": 0.7684586082070672,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 145,
+        "y": 305,
+        "scale": 0.8289422411182961,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00762",
+    "image_path": "data\\images\\val\\sample_00762.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "How many cups are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the cup to the left of the car?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2431936808161677,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 329,
+        "y": 264,
+        "scale": 0.8401470779780948,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 273,
+        "y": 68,
+        "scale": 0.8070301886426585,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 80,
+        "y": 283,
+        "scale": 0.8907334410658123,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00763",
+    "image_path": "data\\images\\val\\sample_00763.png",
+    "object_type": "banana",
+    "object_color": "brown",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What color is the banana?",
+        "brown",
+        "color"
+      ],
+      [
+        "Is there a banana in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the banana near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2918942051109552,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 287,
+        "y": 138,
+        "scale": 1.0818117387651423,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 147,
+        "y": 103,
+        "scale": 1.127687358325307,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 70,
+        "y": 314,
+        "scale": 0.8723932445355538,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 131,
+        "y": 105,
+        "scale": 1.1485115028562316,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 263,
+        "y": 304,
+        "scale": 0.9848086394905976,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00764",
+    "image_path": "data\\images\\val\\sample_00764.png",
+    "object_type": "phone",
+    "object_color": "blue",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "What is the color of the phone?",
+        "blue",
+        "color"
+      ],
+      [
+        "Can you see a phone?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone above the car?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6065517083763736,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 111,
+        "y": 279,
+        "scale": 1.150591717402306,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 185,
+        "y": 324,
+        "scale": 1.068374118107972,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 303,
+        "y": 199,
+        "scale": 0.8639848773700354,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00765",
+    "image_path": "data\\images\\val\\sample_00765.png",
+    "object_type": "banana",
+    "object_color": "brown",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the banana near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the banana or the phone?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the banana to the left of the cup?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3335930659651332,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 132,
+        "y": 61,
+        "scale": 1.0980410572093542,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 87,
+        "y": 309,
+        "scale": 0.8429491994378371,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 297,
+        "y": 298,
+        "scale": 0.6749936207865597,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 116,
+        "y": 123,
+        "scale": 1.1698479801402653,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00766",
+    "image_path": "data\\images\\val\\sample_00766.png",
+    "object_type": "book",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the book to the left of the book?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the book or the book?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3527374227517652,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 309,
+        "y": 218,
+        "scale": 0.6571384074993785,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 299,
+        "y": 169,
+        "scale": 0.9717446997695773,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00767",
+    "image_path": "data\\images\\val\\sample_00767.png",
+    "object_type": "book",
+    "object_color": "black",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the book or the banana?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What color is the book?",
+        "black",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2932303702268666,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 60,
+        "y": 213,
+        "scale": 0.6109457349703342,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 265,
+        "y": 287,
+        "scale": 0.9801591160132763,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 312,
+        "y": 310,
+        "scale": 1.0322185582340841,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 81,
+        "y": 325,
+        "scale": 1.027720741406465,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 78,
+        "y": 122,
+        "scale": 0.8768876911345047,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00768",
+    "image_path": "data\\images\\val\\sample_00768.png",
+    "object_type": "bottle",
+    "object_color": "clear",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What is the color of the bottle?",
+        "clear",
+        "color"
+      ],
+      [
+        "How many bottles are there?",
+        "2",
+        "count"
+      ],
+      [
+        "Is the bottle larger than the ball?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2200661397973351,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 330,
+        "y": 220,
+        "scale": 0.7882896319623472,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 139,
+        "y": 116,
+        "scale": 1.0495566701805288,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 287,
+        "y": 265,
+        "scale": 1.0061135496943592,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 279,
+        "y": 309,
+        "scale": 1.199914308965889,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 329,
+        "y": 268,
+        "scale": 0.6272852651285369,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00769",
+    "image_path": "data\\images\\val\\sample_00769.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "What color is the ball?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the ball above the bottle?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Can you see a ball?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7143622084403969,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 220,
+        "y": 305,
+        "scale": 1.0273604874546418,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 92,
+        "y": 197,
+        "scale": 0.9120960338261672,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00770",
+    "image_path": "data\\images\\val\\sample_00770.png",
+    "object_type": "book",
+    "object_color": "black",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Count the number of books.",
+        "1",
+        "count"
+      ],
+      [
+        "What color is the book?",
+        "black",
+        "color"
+      ],
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3044637708707574,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 181,
+        "y": 301,
+        "scale": 1.0858668726293628,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 94,
+        "y": 132,
+        "scale": 1.1318135775919849,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 113,
+        "y": 105,
+        "scale": 1.086148721544098,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00771",
+    "image_path": "data\\images\\val\\sample_00771.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the car or the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "How many cars are in the image?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6738308622326457,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 99,
+        "y": 116,
+        "scale": 0.9124631439040112,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 290,
+        "y": 156,
+        "scale": 0.9067256389545103,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 133,
+        "y": 89,
+        "scale": 0.723646521058456,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 279,
+        "y": 322,
+        "scale": 0.7805449416353835,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 203,
+        "y": 314,
+        "scale": 1.1634597752106393,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00772",
+    "image_path": "data\\images\\val\\sample_00772.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many cups are there?",
+        "3",
+        "count"
+      ],
+      [
+        "What color is the cup?",
+        "red",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3242352943632822,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 60,
+        "y": 320,
+        "scale": 0.889009992234929,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 299,
+        "y": 307,
+        "scale": 0.627725926335072,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 307,
+        "y": 282,
+        "scale": 0.665044426789839,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 251,
+        "y": 61,
+        "scale": 0.8899097103822278,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00773",
+    "image_path": "data\\images\\val\\sample_00773.png",
+    "object_type": "banana",
+    "object_color": "brown",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Can you see a banana?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the banana near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the banana?",
+        "brown",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2295954435621381,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 82,
+        "y": 175,
+        "scale": 1.131628926815585,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 279,
+        "y": 299,
+        "scale": 0.7791063671224784,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 78,
+        "y": 225,
+        "scale": 1.030754425702426,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00774",
+    "image_path": "data\\images\\val\\sample_00774.png",
+    "object_type": "banana",
+    "object_color": "yellow",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is the banana above the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is the banana larger than the bottle?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is there a banana in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.623100532418466,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 123,
+        "y": 95,
+        "scale": 1.042435763165547,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 263,
+        "y": 338,
+        "scale": 0.6853209059517554,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 65,
+        "y": 296,
+        "scale": 0.7663632057986476,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 186,
+        "y": 94,
+        "scale": 0.9590166684193978,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 265,
+        "y": 61,
+        "scale": 0.6843574099580894,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00775",
+    "image_path": "data\\images\\val\\sample_00775.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "How many apples are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the apple or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the apple above the book?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6965336500020736,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 227,
+        "y": 103,
+        "scale": 0.8880107863761413,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 73,
+        "y": 143,
+        "scale": 1.040642783410046,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00776",
+    "image_path": "data\\images\\val\\sample_00776.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Which is bigger, the phone or the phone?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the phone?",
+        "black",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5617388387939146,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 101,
+        "y": 308,
+        "scale": 1.0195553184754804,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00777",
+    "image_path": "data\\images\\val\\sample_00777.png",
+    "object_type": "book",
+    "object_color": "red",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the book above the book?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Can you see a book?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many books are in the image?",
+        "3",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6564597009178657,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 119,
+        "y": 292,
+        "scale": 1.0583784155520573,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 297,
+        "y": 283,
+        "scale": 1.114625188979392,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 100,
+        "y": 301,
+        "scale": 1.0561825464800039,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 315,
+        "y": 195,
+        "scale": 1.1967269176316906,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 60,
+        "y": 214,
+        "scale": 0.9257070881764865,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00778",
+    "image_path": "data\\images\\val\\sample_00778.png",
+    "object_type": "cup",
+    "object_color": "green",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What color is the cup?",
+        "green",
+        "color"
+      ],
+      [
+        "Is the cup to the left of the phone?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.556610894707369,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 213,
+        "y": 304,
+        "scale": 0.8481339313028237,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 115,
+        "y": 86,
+        "scale": 0.8904700843395135,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 234,
+        "y": 296,
+        "scale": 0.6899148323166492,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 319,
+        "y": 232,
+        "scale": 0.7610178840604722,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 65,
+        "y": 319,
+        "scale": 0.7546926764695565,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00779",
+    "image_path": "data\\images\\val\\sample_00779.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Can you see a car?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the car larger than the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "How many cars are there?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7173812811502485,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 251,
+        "y": 299,
+        "scale": 0.6245281253317094,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 314,
+        "y": 299,
+        "scale": 0.9535557397473049,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 103,
+        "y": 88,
+        "scale": 1.1678114910623647,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 123,
+        "y": 126,
+        "scale": 0.932339182184967,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00780",
+    "image_path": "data\\images\\val\\sample_00780.png",
+    "object_type": "apple",
+    "object_color": "yellow",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the apple near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many apples are there?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5700695570828913,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 254,
+        "y": 71,
+        "scale": 1.0724988582781056,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 61,
+        "y": 264,
+        "scale": 0.9671832398047588,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00781",
+    "image_path": "data\\images\\val\\sample_00781.png",
+    "object_type": "book",
+    "object_color": "blue",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many books are there?",
+        "2",
+        "count"
+      ],
+      [
+        "Is the book above the book?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6712819265538759,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 332,
+        "y": 305,
+        "scale": 1.0679234278816663,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 114,
+        "y": 119,
+        "scale": 1.177107943201023,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 133,
+        "y": 331,
+        "scale": 1.0812967479517819,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00782",
+    "image_path": "data\\images\\val\\sample_00782.png",
+    "object_type": "bottle",
+    "object_color": "clear",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the bottle near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What is the color of the bottle?",
+        "clear",
+        "color"
+      ],
+      [
+        "Which is bigger, the bottle or the phone?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2252259398789027,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 98,
+        "y": 306,
+        "scale": 0.6205095957307416,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 127,
+        "y": 336,
+        "scale": 1.086665991568455,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 325,
+        "y": 314,
+        "scale": 0.7217896155701563,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 302,
+        "y": 260,
+        "scale": 0.7858257083613442,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 64,
+        "y": 180,
+        "scale": 0.7168188695322351,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00783",
+    "image_path": "data\\images\\val\\sample_00783.png",
+    "object_type": "ball",
+    "object_color": "blue",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "What is the color of the ball?",
+        "blue",
+        "color"
+      ],
+      [
+        "Is the ball to the left of the ball?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6219849824432293,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 94,
+        "y": 263,
+        "scale": 0.7652560674987463,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00784",
+    "image_path": "data\\images\\val\\sample_00784.png",
+    "object_type": "book",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the book above the banana?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "What is the color of the book?",
+        "red",
+        "color"
+      ],
+      [
+        "Can you see a book?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.608327562680031,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 147,
+        "y": 86,
+        "scale": 0.7378870764421872,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 306,
+        "y": 333,
+        "scale": 1.1451285873368477,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 337,
+        "y": 156,
+        "scale": 0.7209979132416702,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 312,
+        "y": 132,
+        "scale": 1.1412521179224893,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00785",
+    "image_path": "data\\images\\val\\sample_00785.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the phone larger than the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the phone above the book?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3607346597680148,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 111,
+        "y": 295,
+        "scale": 0.6041803930505534,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 114,
+        "y": 281,
+        "scale": 0.8978108686624664,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 74,
+        "y": 126,
+        "scale": 0.8102385345411923,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 136,
+        "y": 290,
+        "scale": 1.105066309886057,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 161,
+        "y": 304,
+        "scale": 0.951294347675737,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00786",
+    "image_path": "data\\images\\val\\sample_00786.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone above the apple?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7424226542751107,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 100,
+        "y": 324,
+        "scale": 1.1554056847635519,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 95,
+        "y": 151,
+        "scale": 0.7802274971595493,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 296,
+        "y": 305,
+        "scale": 0.7031106496536813,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 325,
+        "y": 313,
+        "scale": 0.6988745507758912,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00787",
+    "image_path": "data\\images\\val\\sample_00787.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many cups are in the image?",
+        "2",
+        "count"
+      ],
+      [
+        "Where is the cup located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5844244478501184,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 274,
+        "y": 85,
+        "scale": 0.975890529292395,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 206,
+        "y": 64,
+        "scale": 0.9608444902262785,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00788",
+    "image_path": "data\\images\\val\\sample_00788.png",
+    "object_type": "car",
+    "object_color": "blue",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Count the number of cars.",
+        "3",
+        "count"
+      ],
+      [
+        "Is the car to the left of the car?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2198317761160005,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 90,
+        "y": 111,
+        "scale": 1.0072619467918027,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 118,
+        "y": 295,
+        "scale": 0.7106080047171961,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 219,
+        "y": 93,
+        "scale": 0.7551747969896001,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 66,
+        "y": 65,
+        "scale": 0.9804806473811357,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00789",
+    "image_path": "data\\images\\val\\sample_00789.png",
+    "object_type": "car",
+    "object_color": "blue",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Which is bigger, the car or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What is the color of the car?",
+        "blue",
+        "color"
+      ],
+      [
+        "Is the car to the left of the ball?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6763611613042377,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 306,
+        "y": 304,
+        "scale": 1.0783502203266586,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 187,
+        "y": 70,
+        "scale": 1.0737863577998163,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 298,
+        "y": 180,
+        "scale": 0.8416104256709541,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00790",
+    "image_path": "data\\images\\val\\sample_00790.png",
+    "object_type": "banana",
+    "object_color": "green",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the banana to the left of the cup?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is the banana near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many bananas are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7052208128759816,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 86,
+        "y": 205,
+        "scale": 0.7056216656027628,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 265,
+        "y": 312,
+        "scale": 0.959214601562656,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 69,
+        "y": 201,
+        "scale": 0.7916788318172319,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00791",
+    "image_path": "data\\images\\val\\sample_00791.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Can you see a phone?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What is the color of the phone?",
+        "white",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2591647962865382,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 306,
+        "y": 179,
+        "scale": 0.7663405195193898,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 166,
+        "y": 85,
+        "scale": 0.708473110135318,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00792",
+    "image_path": "data\\images\\val\\sample_00792.png",
+    "object_type": "car",
+    "object_color": "red",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "What color is the car?",
+        "red",
+        "color"
+      ],
+      [
+        "Count the number of cars.",
+        "2",
+        "count"
+      ],
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7495127129821015,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 74,
+        "y": 309,
+        "scale": 1.0252210650880982,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 226,
+        "y": 333,
+        "scale": 1.115519676351501,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 196,
+        "y": 86,
+        "scale": 0.7640297017330772,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 216,
+        "y": 96,
+        "scale": 0.6472177397924569,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00793",
+    "image_path": "data\\images\\val\\sample_00793.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the phone larger than the phone?",
+        "yes",
+        "compare"
+      ],
+      [
+        "How many phones are there?",
+        "2",
+        "count"
+      ],
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7863522577260138,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 190,
+        "y": 95,
+        "scale": 0.9698822366280135,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 230,
+        "y": 314,
+        "scale": 1.1149929050644507,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 314,
+        "y": 122,
+        "scale": 1.1364818838171078,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00794",
+    "image_path": "data\\images\\val\\sample_00794.png",
+    "object_type": "ball",
+    "object_color": "orange",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "What is the color of the ball?",
+        "orange",
+        "color"
+      ],
+      [
+        "Is the ball above the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is the ball larger than the book?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6017688924339781,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 127,
+        "y": 64,
+        "scale": 1.124400480594205,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 283,
+        "y": 97,
+        "scale": 0.7875965105363825,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 88,
+        "y": 220,
+        "scale": 0.9642680416809484,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 275,
+        "y": 288,
+        "scale": 0.8763474846359989,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 276,
+        "y": 72,
+        "scale": 1.1477423426506141,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00795",
+    "image_path": "data\\images\\val\\sample_00795.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What is the color of the car?",
+        "white",
+        "color"
+      ],
+      [
+        "Which is bigger, the car or the cup?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5227681931580461,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 260,
+        "y": 118,
+        "scale": 0.83152424069466,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 327,
+        "y": 118,
+        "scale": 0.8445790661881211,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00796",
+    "image_path": "data\\images\\val\\sample_00796.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Count the number of bottles.",
+        "1",
+        "count"
+      ],
+      [
+        "What is the color of the bottle?",
+        "green",
+        "color"
+      ],
+      [
+        "Can you see a bottle?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2961872892686435,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 77,
+        "y": 66,
+        "scale": 0.8875004453178333,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 140,
+        "y": 60,
+        "scale": 1.0344014688059024,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 289,
+        "y": 139,
+        "scale": 0.9793641739777718,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 204,
+        "y": 69,
+        "scale": 0.8796660103608593,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00797",
+    "image_path": "data\\images\\val\\sample_00797.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many balls are there?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3226517293378237,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 258,
+        "y": 306,
+        "scale": 0.7580612833692073,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 254,
+        "y": 329,
+        "scale": 0.9090612965370017,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 250,
+        "y": 95,
+        "scale": 1.1210383887344006,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 111,
+        "y": 103,
+        "scale": 0.8549919440045444,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00798",
+    "image_path": "data\\images\\val\\sample_00798.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "How many cups are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What is the color of the cup?",
+        "yellow",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6318554998891313,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 182,
+        "y": 300,
+        "scale": 1.0221035129285645,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 69,
+        "y": 162,
+        "scale": 0.6596529962652689,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00799",
+    "image_path": "data\\images\\val\\sample_00799.png",
+    "object_type": "car",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a car in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What color is the car?",
+        "red",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2830974278774991,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 224,
+        "y": 72,
+        "scale": 0.994910520573572,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 76,
+        "y": 319,
+        "scale": 1.196116718997251,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 166,
+        "y": 313,
+        "scale": 0.840876954634923,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00800",
+    "image_path": "data\\images\\val\\sample_00800.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Which is bigger, the apple or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the apple above the ball?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2356633843220637,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 175,
+        "y": 69,
+        "scale": 0.8950311617179598,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00801",
+    "image_path": "data\\images\\val\\sample_00801.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is there a phone in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone to the left of the car?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "What is the color of the phone?",
+        "white",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4265552661870222,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 266,
+        "y": 88,
+        "scale": 0.6025065429475914,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 79,
+        "y": 126,
+        "scale": 0.734672851398466,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00802",
+    "image_path": "data\\images\\val\\sample_00802.png",
+    "object_type": "cup",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the cup larger than the cup?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup above the cup?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2996010636040694,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 95,
+        "y": 271,
+        "scale": 0.8415281627983888,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 309,
+        "y": 329,
+        "scale": 0.931995156231133,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 77,
+        "y": 255,
+        "scale": 1.0797944256381733,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 302,
+        "y": 260,
+        "scale": 0.9668993457688051,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 67,
+        "y": 134,
+        "scale": 0.6960424071516605,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00803",
+    "image_path": "data\\images\\val\\sample_00803.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is the phone larger than the cup?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the phone above the cup?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "What is the color of the phone?",
+        "black",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2442040331852353,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 269,
+        "y": 63,
+        "scale": 0.8299408663150807,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00804",
+    "image_path": "data\\images\\val\\sample_00804.png",
+    "object_type": "car",
+    "object_color": "black",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the car near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the car?",
+        "black",
+        "color"
+      ],
+      [
+        "Is the car to the left of the banana?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6014484127330602,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 83,
+        "y": 172,
+        "scale": 0.7571001786522207,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 161,
+        "y": 95,
+        "scale": 0.9094012056454028,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00805",
+    "image_path": "data\\images\\val\\sample_00805.png",
+    "object_type": "ball",
+    "object_color": "orange",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the ball larger than the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the ball above the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 200,
+        "y": 200,
+        "scale": 1.470261566513266,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 60,
+        "y": 200,
+        "scale": 1.0754309403051423,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 317,
+        "y": 294,
+        "scale": 0.9159402484268552,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 221,
+        "y": 302,
+        "scale": 0.6750859645591643,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 227,
+        "y": 301,
+        "scale": 0.9597861048674279,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 197,
+        "y": 73,
+        "scale": 0.7334904680317396,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00806",
+    "image_path": "data\\images\\val\\sample_00806.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "What is the color of the bottle?",
+        "green",
+        "color"
+      ],
+      [
+        "Which is bigger, the bottle or the cup?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the bottle to the left of the cup?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7780830724557912,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 68,
+        "y": 174,
+        "scale": 0.7006978083847193,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00807",
+    "image_path": "data\\images\\val\\sample_00807.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the cup to the left of the bottle?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "How many cups are there?",
+        "2",
+        "count"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5864042624784438,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 79,
+        "y": 258,
+        "scale": 1.1586125774172862,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 208,
+        "y": 326,
+        "scale": 0.840003425466474,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 253,
+        "y": 325,
+        "scale": 0.9545652118546837,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00808",
+    "image_path": "data\\images\\val\\sample_00808.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "What color is the phone?",
+        "black",
+        "color"
+      ],
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the phone to the left of the ball?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6591313922179756,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 163,
+        "y": 78,
+        "scale": 0.8664907270422807,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 97,
+        "y": 286,
+        "scale": 0.6639702539461899,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00809",
+    "image_path": "data\\images\\val\\sample_00809.png",
+    "object_type": "ball",
+    "object_color": "green",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "What is the color of the ball?",
+        "green",
+        "color"
+      ],
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many balls are in the image?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3675896371638012,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 325,
+        "y": 215,
+        "scale": 0.998155141910812,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 305,
+        "y": 73,
+        "scale": 1.0911261106034333,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00810",
+    "image_path": "data\\images\\val\\sample_00810.png",
+    "object_type": "apple",
+    "object_color": "yellow",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the apple to the left of the apple?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "What color is the apple?",
+        "yellow",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5680541402591281,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 319,
+        "y": 313,
+        "scale": 1.030594162893777,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 238,
+        "y": 329,
+        "scale": 0.8256694787345347,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 138,
+        "y": 305,
+        "scale": 0.9953118449989115,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 100,
+        "y": 183,
+        "scale": 0.7640877466343653,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00811",
+    "image_path": "data\\images\\val\\sample_00811.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Where is the phone located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the phone to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Can you see a phone?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7285017924775121,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 233,
+        "y": 72,
+        "scale": 0.8359208853430418,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00812",
+    "image_path": "data\\images\\val\\sample_00812.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of cups.",
+        "2",
+        "count"
+      ],
+      [
+        "Is the cup near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3965945677188898,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 127,
+        "y": 303,
+        "scale": 1.0173661254641173,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 88,
+        "y": 228,
+        "scale": 0.6143121449104159,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 87,
+        "y": 63,
+        "scale": 0.6287462696439438,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 88,
+        "y": 102,
+        "scale": 1.0907857566775512,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00813",
+    "image_path": "data\\images\\val\\sample_00813.png",
+    "object_type": "car",
+    "object_color": "red",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Can you see a car?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many cars are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the car to the left of the apple?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5336247020005902,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 86,
+        "y": 267,
+        "scale": 0.8868427863472255,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 171,
+        "y": 97,
+        "scale": 0.6368167888985398,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00814",
+    "image_path": "data\\images\\val\\sample_00814.png",
+    "object_type": "car",
+    "object_color": "blue",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "What is the color of the car?",
+        "blue",
+        "color"
+      ],
+      [
+        "How many cars are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the car or the cup?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.281727618927299,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 169,
+        "y": 101,
+        "scale": 0.9157615709032194,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 122,
+        "y": 306,
+        "scale": 0.8306438910803071,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00815",
+    "image_path": "data\\images\\val\\sample_00815.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the apple to the left of the bottle?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Count the number of apples.",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the apple or the bottle?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5656935241418553,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 67,
+        "y": 184,
+        "scale": 0.6884051586329706,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00816",
+    "image_path": "data\\images\\val\\sample_00816.png",
+    "object_type": "phone",
+    "object_color": "black",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Which is bigger, the phone or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What is the color of the phone?",
+        "black",
+        "color"
+      ],
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.476657224818349,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 214,
+        "y": 326,
+        "scale": 0.7670526702409413,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 279,
+        "y": 337,
+        "scale": 0.8610037587909205,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 98,
+        "y": 218,
+        "scale": 1.0698922051687236,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00817",
+    "image_path": "data\\images\\val\\sample_00817.png",
+    "object_type": "book",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "What is the color of the book?",
+        "green",
+        "color"
+      ],
+      [
+        "How many books are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the book to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.669041125599676,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 306,
+        "y": 331,
+        "scale": 0.8873455253052918,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00818",
+    "image_path": "data\\images\\val\\sample_00818.png",
+    "object_type": "ball",
+    "object_color": "orange",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is the ball above the apple?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is the ball larger than the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Can you see a ball?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4371618765213157,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 320,
+        "y": 212,
+        "scale": 0.6434761563026341,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00819",
+    "image_path": "data\\images\\val\\sample_00819.png",
+    "object_type": "phone",
+    "object_color": "silver",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "How many phones are there?",
+        "2",
+        "count"
+      ],
+      [
+        "Is the phone to the left of the bottle?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "What is the color of the phone?",
+        "silver",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.689674239513496,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 103,
+        "y": 97,
+        "scale": 0.6386343619800401,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 293,
+        "y": 66,
+        "scale": 0.7310507955125749,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 297,
+        "y": 280,
+        "scale": 0.662443770930514,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00820",
+    "image_path": "data\\images\\val\\sample_00820.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Can you see a apple?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many apples are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the apple to the left of the car?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.546821901041302,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 131,
+        "y": 321,
+        "scale": 0.8798025871359033,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 80,
+        "y": 301,
+        "scale": 1.0097711461012813,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00821",
+    "image_path": "data\\images\\val\\sample_00821.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "How many cups are there?",
+        "1",
+        "count"
+      ],
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the cup to the left of the banana?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7069722832255323,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 338,
+        "y": 300,
+        "scale": 0.7520305789840418,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 142,
+        "y": 310,
+        "scale": 0.9678431989171523,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 93,
+        "y": 140,
+        "scale": 0.9748233753354947,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "green",
+        "x": 69,
+        "y": 69,
+        "scale": 1.1741970346723445,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 322,
+        "y": 118,
+        "scale": 0.9710660590391214,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00822",
+    "image_path": "data\\images\\val\\sample_00822.png",
+    "object_type": "cup",
+    "object_color": "yellow",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "What color is the cup?",
+        "yellow",
+        "color"
+      ],
+      [
+        "Is the cup to the left of the bottle?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Can you see a cup?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2921244416199127,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 161,
+        "y": 293,
+        "scale": 0.7985364175150331,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 118,
+        "y": 282,
+        "scale": 1.060512040137324,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 75,
+        "y": 117,
+        "scale": 1.1227200616100856,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 123,
+        "y": 276,
+        "scale": 1.1041402901702462,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 301,
+        "y": 216,
+        "scale": 0.6055498447212393,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00823",
+    "image_path": "data\\images\\val\\sample_00823.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Count the number of cups.",
+        "2",
+        "count"
+      ],
+      [
+        "Where is the cup located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the cup above the cup?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6406284749416464,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 310,
+        "y": 268,
+        "scale": 0.779594220858967,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 324,
+        "y": 61,
+        "scale": 0.9518091207575525,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 63,
+        "y": 222,
+        "scale": 1.0908698246694732,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 128,
+        "y": 84,
+        "scale": 0.7946263231480761,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 198,
+        "y": 89,
+        "scale": 1.1727881924782841,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00824",
+    "image_path": "data\\images\\val\\sample_00824.png",
+    "object_type": "ball",
+    "object_color": "red",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "What color is the ball?",
+        "red",
+        "color"
+      ],
+      [
+        "Is the ball larger than the phone?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3916047789448902,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 288,
+        "y": 338,
+        "scale": 0.9312979707344006,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 80,
+        "y": 173,
+        "scale": 0.6494736178957258,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 332,
+        "y": 69,
+        "scale": 1.181621925106465,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 243,
+        "y": 333,
+        "scale": 1.1345364233741044,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00825",
+    "image_path": "data\\images\\val\\sample_00825.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the apple to the left of the phone?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "What is the color of the apple?",
+        "green",
+        "color"
+      ],
+      [
+        "Which is bigger, the apple or the banana?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.377009977373857,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 268,
+        "y": 286,
+        "scale": 0.7927051012735843,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 289,
+        "y": 340,
+        "scale": 0.7340998069270913,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 299,
+        "y": 270,
+        "scale": 1.1829395240968288,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00826",
+    "image_path": "data\\images\\val\\sample_00826.png",
+    "object_type": "cup",
+    "object_color": "red",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Which is bigger, the cup or the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the cup to the left of the apple?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "How many cups are there?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3089204405976191,
+        "is_main": true
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 327,
+        "y": 252,
+        "scale": 0.6364727363337385,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 294,
+        "y": 281,
+        "scale": 1.0084552321508526,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00827",
+    "image_path": "data\\images\\val\\sample_00827.png",
+    "object_type": "ball",
+    "object_color": "blue",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Count the number of balls.",
+        "1",
+        "count"
+      ],
+      [
+        "Can you see a ball?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.5834306946955519,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 261,
+        "y": 84,
+        "scale": 1.1474192028484302,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 326,
+        "y": 308,
+        "scale": 1.0489009672746203,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 322,
+        "y": 247,
+        "scale": 1.040328220915981,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 339,
+        "y": 192,
+        "scale": 1.065565396405095,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 184,
+        "y": 86,
+        "scale": 1.0270585607411014,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00828",
+    "image_path": "data\\images\\val\\sample_00828.png",
+    "object_type": "book",
+    "object_color": "brown",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the book above the car?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the book or the banana?",
+        "yes",
+        "compare"
+      ],
+      [
+        "What is the color of the book?",
+        "brown",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7217289826272617,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 82,
+        "y": 291,
+        "scale": 0.8417951952585446,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 115,
+        "y": 260,
+        "scale": 0.6185955402404788,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 234,
+        "y": 323,
+        "scale": 0.7255787816087971,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00829",
+    "image_path": "data\\images\\val\\sample_00829.png",
+    "object_type": "book",
+    "object_color": "brown",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "What color is the book?",
+        "brown",
+        "color"
+      ],
+      [
+        "Is the book above the phone?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is there a book in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4981275558316662,
+        "is_main": true
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 304,
+        "y": 329,
+        "scale": 0.78565801976322,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 79,
+        "y": 310,
+        "scale": 1.104604969718658,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 286,
+        "y": 110,
+        "scale": 1.0838221983017398,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 258,
+        "y": 108,
+        "scale": 1.1280968558246158,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00830",
+    "image_path": "data\\images\\val\\sample_00830.png",
+    "object_type": "apple",
+    "object_color": "red",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "Is the apple near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the apple larger than the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2081924240423574,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 82,
+        "y": 155,
+        "scale": 0.7345249910071419,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 141,
+        "y": 294,
+        "scale": 0.742735730023214,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00831",
+    "image_path": "data\\images\\val\\sample_00831.png",
+    "object_type": "car",
+    "object_color": "blue",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Count the number of cars.",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the car or the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the car to the left of the ball?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3752115149373452,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 81,
+        "y": 136,
+        "scale": 0.6220487104696981,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 300,
+        "y": 188,
+        "scale": 0.6441857421155046,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 260,
+        "y": 116,
+        "scale": 1.0595827959185127,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "purple",
+        "x": 135,
+        "y": 304,
+        "scale": 1.0062004822451727,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 226,
+        "y": 75,
+        "scale": 0.8625596779656839,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00832",
+    "image_path": "data\\images\\val\\sample_00832.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is there a bottle in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What color is the bottle?",
+        "green",
+        "color"
+      ],
+      [
+        "Which is bigger, the bottle or the bottle?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.422587028308437,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 230,
+        "y": 86,
+        "scale": 0.6756415440269944,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 63,
+        "y": 315,
+        "scale": 0.8990514121381428,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 309,
+        "y": 269,
+        "scale": 1.1146954222895085,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00833",
+    "image_path": "data\\images\\val\\sample_00833.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Can you see a car?",
+        "yes",
+        "existence"
+      ],
+      [
+        "What color is the car?",
+        "white",
+        "color"
+      ],
+      [
+        "Is the car larger than the phone?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3102569407954812,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 232,
+        "y": 71,
+        "scale": 0.8402466421016309,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00834",
+    "image_path": "data\\images\\val\\sample_00834.png",
+    "object_type": "cup",
+    "object_color": "blue",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Which is bigger, the cup or the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "How many cups are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Is the cup to the left of the bottle?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.566960843055686,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 97,
+        "y": 159,
+        "scale": 1.0115202482238592,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 97,
+        "y": 140,
+        "scale": 0.946794859706751,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 117,
+        "y": 61,
+        "scale": 1.1100605130367354,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 305,
+        "y": 103,
+        "scale": 0.6957692481875553,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00835",
+    "image_path": "data\\images\\val\\sample_00835.png",
+    "object_type": "cup",
+    "object_color": "green",
+    "scene_type": "beach",
+    "qa_pairs": [
+      [
+        "Is there a cup in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Where is the cup located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the cup to the left of the cup?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.6412028843528348,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 340,
+        "y": 134,
+        "scale": 0.6372837039838553,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 141,
+        "y": 325,
+        "scale": 1.0983568744079841,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 87,
+        "y": 209,
+        "scale": 0.7552117530224797,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 317,
+        "y": 225,
+        "scale": 0.6824125248520895,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 269,
+        "y": 66,
+        "scale": 1.106785505568392,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00836",
+    "image_path": "data\\images\\val\\sample_00836.png",
+    "object_type": "phone",
+    "object_color": "white",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Can you see a phone?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the phone near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the phone?",
+        "white",
+        "color"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4815641380614848,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 286,
+        "y": 61,
+        "scale": 1.0862781049171595,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 222,
+        "y": 305,
+        "scale": 0.8808616315937706,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "yellow",
+        "x": 104,
+        "y": 132,
+        "scale": 1.1429291260905043,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 339,
+        "y": 216,
+        "scale": 0.6930379244635352,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "white",
+        "x": 129,
+        "y": 322,
+        "scale": 1.0779893472294684,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00837",
+    "image_path": "data\\images\\val\\sample_00837.png",
+    "object_type": "book",
+    "object_color": "blue",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "How many books are in the image?",
+        "2",
+        "count"
+      ],
+      [
+        "Is the book above the book?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4545471610126288,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 337,
+        "y": 323,
+        "scale": 0.6063446795712343,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 216,
+        "y": 301,
+        "scale": 1.1816484683898618,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "red",
+        "x": 133,
+        "y": 298,
+        "scale": 0.9495799833105358,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00838",
+    "image_path": "data\\images\\val\\sample_00838.png",
+    "object_type": "ball",
+    "object_color": "orange",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "How many balls are there?",
+        "3",
+        "count"
+      ],
+      [
+        "Is the ball near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Can you see a ball?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7862624702608803,
+        "is_main": true
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 70,
+        "y": 327,
+        "scale": 0.8639952466015357,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "orange",
+        "x": 60,
+        "y": 323,
+        "scale": 1.067666681366849,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "clear",
+        "x": 147,
+        "y": 80,
+        "scale": 0.8877230531007316,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 301,
+        "y": 206,
+        "scale": 0.6349290949924942,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 277,
+        "y": 340,
+        "scale": 0.9473886938675795,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00839",
+    "image_path": "data\\images\\val\\sample_00839.png",
+    "object_type": "ball",
+    "object_color": "red",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Can you see a ball?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Where is the ball located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the ball above the banana?",
+        "no",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "red",
+        "x": 200,
+        "y": 200,
+        "scale": 1.200302267303653,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "red",
+        "x": 314,
+        "y": 245,
+        "scale": 0.616846229403523,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 250,
+        "y": 84,
+        "scale": 0.6891583592355948,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "brown",
+        "x": 302,
+        "y": 143,
+        "scale": 1.0116465379115993,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 149,
+        "y": 76,
+        "scale": 0.6491450340090178,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00840",
+    "image_path": "data\\images\\val\\sample_00840.png",
+    "object_type": "bottle",
+    "object_color": "green",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Is the bottle larger than the apple?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Can you see a bottle?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Is the bottle above the car?",
+        "yes",
+        "relative_position"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.648899656426454,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "black",
+        "x": 88,
+        "y": 204,
+        "scale": 0.6500283631881931,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "yellow",
+        "x": 80,
+        "y": 247,
+        "scale": 0.655749396534815,
+        "is_main": false
+      },
+      {
+        "type": "apple",
+        "color": "red",
+        "x": 287,
+        "y": 276,
+        "scale": 1.0777328152280787,
+        "is_main": false
+      }
+    ],
+    "complexity": 4
+  },
+  {
+    "id": "sample_00841",
+    "image_path": "data\\images\\val\\sample_00841.png",
+    "object_type": "book",
+    "object_color": "green",
+    "scene_type": "sky",
+    "qa_pairs": [
+      [
+        "Is the book above the cup?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Which is bigger, the book or the book?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Where is the book located?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.474683050667548,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 326,
+        "y": 212,
+        "scale": 0.9692261996429592,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 77,
+        "y": 323,
+        "scale": 0.6349872404848287,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 205,
+        "y": 83,
+        "scale": 1.0043042705453251,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "silver",
+        "x": 73,
+        "y": 283,
+        "scale": 0.7254598357498229,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 134,
+        "y": 285,
+        "scale": 1.0419824999175777,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00842",
+    "image_path": "data\\images\\val\\sample_00842.png",
+    "object_type": "book",
+    "object_color": "black",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Which is bigger, the book or the car?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the book to the left of the car?",
+        "yes",
+        "relative_position"
+      ],
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "black",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4141795120839153,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "red",
+        "x": 316,
+        "y": 167,
+        "scale": 0.6313891939166228,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 200,
+        "y": 332,
+        "scale": 0.604988474596669,
+        "is_main": false
+      },
+      {
+        "type": "cup",
+        "color": "blue",
+        "x": 237,
+        "y": 313,
+        "scale": 0.9976186749298608,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 211,
+        "y": 339,
+        "scale": 1.095740618544662,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 132,
+        "y": 92,
+        "scale": 1.1123191003145105,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00843",
+    "image_path": "data\\images\\val\\sample_00843.png",
+    "object_type": "apple",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Where is the apple located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "What color is the apple?",
+        "green",
+        "color"
+      ],
+      [
+        "How many apples are there?",
+        "1",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.3512419820525925,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "red",
+        "x": 100,
+        "y": 294,
+        "scale": 0.7098969183819137,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 84,
+        "y": 198,
+        "scale": 0.8064822649983006,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 288,
+        "y": 279,
+        "scale": 0.9718041028953323,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 300,
+        "y": 229,
+        "scale": 0.7759164345805972,
+        "is_main": false
+      }
+    ],
+    "complexity": 5
+  },
+  {
+    "id": "sample_00844",
+    "image_path": "data\\images\\val\\sample_00844.png",
+    "object_type": "car",
+    "object_color": "silver",
+    "scene_type": "carpet",
+    "qa_pairs": [
+      [
+        "How many cars are in the image?",
+        "1",
+        "count"
+      ],
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Which is bigger, the car or the book?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 200,
+        "y": 200,
+        "scale": 1.734312660620835,
+        "is_main": true
+      },
+      {
+        "type": "book",
+        "color": "black",
+        "x": 92,
+        "y": 166,
+        "scale": 0.7507007287899117,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  },
+  {
+    "id": "sample_00845",
+    "image_path": "data\\images\\val\\sample_00845.png",
+    "object_type": "book",
+    "object_color": "brown",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Is the book near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a book in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "How many books are there?",
+        "2",
+        "count"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "book",
+        "color": "brown",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4160848173927791,
+        "is_main": true
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 91,
+        "y": 298,
+        "scale": 0.6169337227518746,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "green",
+        "x": 189,
+        "y": 325,
+        "scale": 0.6181535968172057,
+        "is_main": false
+      },
+      {
+        "type": "book",
+        "color": "blue",
+        "x": 112,
+        "y": 253,
+        "scale": 0.6210739290624245,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "white",
+        "x": 187,
+        "y": 87,
+        "scale": 0.7279078953131886,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "white",
+        "x": 311,
+        "y": 94,
+        "scale": 0.9221374261998669,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00846",
+    "image_path": "data\\images\\val\\sample_00846.png",
+    "object_type": "ball",
+    "object_color": "blue",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Which is bigger, the ball or the ball?",
+        "yes",
+        "compare"
+      ],
+      [
+        "Is the ball near the center?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is there a ball in the image?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 200,
+        "y": 200,
+        "scale": 1.7084615626305701,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "black",
+        "x": 99,
+        "y": 223,
+        "scale": 1.0181726837843856,
+        "is_main": false
+      },
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 321,
+        "y": 229,
+        "scale": 0.9081596615970426,
+        "is_main": false
+      },
+      {
+        "type": "bottle",
+        "color": "blue",
+        "x": 100,
+        "y": 327,
+        "scale": 1.158055383095394,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 327,
+        "y": 150,
+        "scale": 0.8031531220950625,
+        "is_main": false
+      },
+      {
+        "type": "ball",
+        "color": "blue",
+        "x": 327,
+        "y": 336,
+        "scale": 0.8287354384338466,
+        "is_main": false
+      }
+    ],
+    "complexity": 6
+  },
+  {
+    "id": "sample_00847",
+    "image_path": "data\\images\\val\\sample_00847.png",
+    "object_type": "banana",
+    "object_color": "green",
+    "scene_type": "table",
+    "qa_pairs": [
+      [
+        "Where is the banana located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Count the number of bananas.",
+        "1",
+        "count"
+      ],
+      [
+        "Can you see a banana?",
+        "yes",
+        "existence"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "banana",
+        "color": "green",
+        "x": 200,
+        "y": 200,
+        "scale": 1.2475454792522587,
+        "is_main": true
+      },
+      {
+        "type": "car",
+        "color": "silver",
+        "x": 336,
+        "y": 295,
+        "scale": 0.6547025075227143,
+        "is_main": false
+      },
+      {
+        "type": "car",
+        "color": "blue",
+        "x": 141,
+        "y": 68,
+        "scale": 0.7247910970484945,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00848",
+    "image_path": "data\\images\\val\\sample_00848.png",
+    "object_type": "car",
+    "object_color": "white",
+    "scene_type": "road",
+    "qa_pairs": [
+      [
+        "Where is the car located?",
+        "yes",
+        "spatial"
+      ],
+      [
+        "Is the car to the left of the phone?",
+        "no",
+        "relative_position"
+      ],
+      [
+        "Is the car larger than the phone?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "car",
+        "color": "white",
+        "x": 200,
+        "y": 200,
+        "scale": 1.31169156195759,
+        "is_main": true
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 74,
+        "y": 184,
+        "scale": 0.6897259354872651,
+        "is_main": false
+      },
+      {
+        "type": "phone",
+        "color": "blue",
+        "x": 284,
+        "y": 100,
+        "scale": 1.173952798888294,
+        "is_main": false
+      }
+    ],
+    "complexity": 3
+  },
+  {
+    "id": "sample_00849",
+    "image_path": "data\\images\\val\\sample_00849.png",
+    "object_type": "apple",
+    "object_color": "yellow",
+    "scene_type": "grass",
+    "qa_pairs": [
+      [
+        "Is there a apple in the image?",
+        "yes",
+        "existence"
+      ],
+      [
+        "Count the number of apples.",
+        "1",
+        "count"
+      ],
+      [
+        "Which is bigger, the apple or the cup?",
+        "yes",
+        "compare"
+      ]
+    ],
+    "metadata": [
+      {
+        "type": "apple",
+        "color": "yellow",
+        "x": 200,
+        "y": 200,
+        "scale": 1.4717496715472898,
+        "is_main": true
+      },
+      {
+        "type": "cup",
+        "color": "green",
+        "x": 233,
+        "y": 331,
+        "scale": 0.813871719117696,
+        "is_main": false
+      }
+    ],
+    "complexity": 2
+  }
+]
