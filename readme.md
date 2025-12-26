@@ -2,7 +2,7 @@
 
 Evaluate Visual Question Answering models on **Generalizability, Robustness, and Extensibility**.
 
-## 🚀 Quick Start (Google Colab)
+## Quick Start (Google Colab)
 
 ### 1. Setup
 
@@ -29,10 +29,10 @@ Evaluate Visual Question Answering models on **Generalizability, Robustness, and
 ```
 
 That's it! The script will:
-- ✅ Generate 1000 synthetic VQA samples
-- ✅ Apply GRE transformations
-- ✅ Evaluate BLIP model
-- ✅ Save results to `results/metrics.json`
+- Generate 1000 synthetic VQA samples
+- Apply GRE transformations
+- Evaluate BLIP model
+- Save results to `results/metrics.json`
 
 ## 📊 What Gets Evaluated
 
@@ -43,7 +43,7 @@ That's it! The script will:
 | **R** (Robustness) | Scene background | Context independence |
 | **E** (Extensibility) | Object category | Concept transfer |
 
-## 📁 Output Structure
+## Output Structure
 
 ```
 data/
@@ -59,7 +59,7 @@ results/
 └── metrics.json
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config.py` to change:
 - Dataset size: `TOTAL_SAMPLES = 1000`
@@ -94,3 +94,4 @@ GRE_SUBSET = 30
 https://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26603876.pdf
 https://visualqa.org/download.html
 https://arxiv.org/pdf/2201.12086
+
