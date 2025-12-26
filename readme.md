@@ -34,7 +34,7 @@ That's it! The script will:
 - Evaluate BLIP model
 - Save results to `results/metrics.json`
 
-## 📊 What Gets Evaluated
+## What Gets Evaluated
 
 | Transform | What Changes | Tests |
 |-----------|--------------|-------|
@@ -94,4 +94,5 @@ GRE_SUBSET = 30
 https://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26603876.pdf
 https://visualqa.org/download.html
 https://arxiv.org/pdf/2201.12086
+
 
